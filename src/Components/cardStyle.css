@@ -1,0 +1,21 @@
+.hstack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+  }
+  
+  .vstack {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-self: stretch;
+  }
+
+.cardlist{
+  /* width: 70%; */
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
